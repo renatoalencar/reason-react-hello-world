@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack --mode production",
+    "re:start": "bsb -make-world -w",
+    "re:build": "bsb -make-world"
+  },
   "devDependencies": {
     "bs-platform": "^9.0.2",
     "webpack": "^5.30.0",

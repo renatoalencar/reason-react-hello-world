@@ -2,3 +2,5 @@
 /lib
 node_modules
 .merlin
+/dist
+yarn-error.log
